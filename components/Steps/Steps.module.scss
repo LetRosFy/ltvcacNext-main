@@ -1,0 +1,44 @@
+@import '/styles/variables';
+
+.steps {
+  max-width: 800px;
+  margin: 0 auto;
+
+  .item {
+    background-color: $secondary;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    height: 100%;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: white;
+  }
+
+  .days {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+  }
+
+  .count {
+    display: block;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.055em;
+
+    color: white;
+  }
+}

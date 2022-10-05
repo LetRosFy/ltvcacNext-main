@@ -1,0 +1,54 @@
+@import '../variables';
+
+.button {
+  padding: 16px 30px;
+  border-radius: 30px;
+  background-color: $third;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  &:hover {
+    background-color: darken($third, 15);
+  }
+
+  svg {
+    margin-right: 10px;
+    transform: translateY(1px);
+
+    path {
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  &--secondary {
+    color: $secondary;
+    border: 2px solid $secondary;
+    background-color: rgba($secondary, 0.05);
+
+    &:hover {
+      background-color: $secondary;
+      color: white;
+    }
+  }
+
+  &--transparent {
+    background-color: transparent;
+    border: 2px solid $secondary;
+
+    &:hover {
+      background-color: $secondary;
+    }
+  }
+}
