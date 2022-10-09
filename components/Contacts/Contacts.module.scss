@@ -72,11 +72,14 @@
             display: flex;
             flex-direction: row;
             gap: 8px;
+<<<<<<< HEAD
             transition: all 0.3s ease-out;
             &:hover{
               scale: 1.03;
               transition: all 0.4s ease-in;
             }
+=======
+>>>>>>> origin/main
 
             img {
               padding: 8px;
@@ -196,7 +199,11 @@
       width: 332.46px;
       padding: 15px;
       font-size: 14px;
+<<<<<<< HEAD
       border: 2px solid #FFFFFF;
+=======
+      border: 2px solid $secondary;
+>>>>>>> origin/main
       border-radius: 10px;
       background-color: #FFFFFF;
       transition: background-color 0.2s ease-in-out;
@@ -268,7 +275,10 @@
         padding: 26.06px 33.1px 26.31px 32.6px;
       }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
     }
   }
 
@@ -277,7 +287,10 @@
     flex-direction: column;
     gap: 5px;
     align-items: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
     >img {
       background: #3725A2;
       border-radius: 14.0267px;
@@ -293,10 +306,15 @@
     }
 
 
+<<<<<<< HEAD
 
   }
 }
 
+=======
+  }
+}
+>>>>>>> origin/main
 .email{
   display: flex;
   flex-direction: column;
@@ -321,6 +339,7 @@
   }
 }
 .input{
+<<<<<<< HEAD
   padding: 19px 365.7px 20px 366.16px;
   border: 1.19069px solid #3725A2;
   border-radius: 9.9844px 0 0 9.9844px;
@@ -330,6 +349,11 @@
   line-height: 29px;
   letter-spacing: 0.005em;
   color: #3725A2;
+=======
+  padding: 26.52px 365.7px 25px 366.16px;
+  border: 1.19069px solid #3725A2;
+  border-radius: 9.9844px 0 0 9.9844px;
+>>>>>>> origin/main
   &::placeholder{
     font-style: normal;
     font-weight: 500;
@@ -337,7 +361,10 @@
     line-height: 29px;
     letter-spacing: 0.005em;
     color: #3725A2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
   }
 }
 .btn{
@@ -354,7 +381,10 @@
 
   text-align: center;
   letter-spacing: 0.005em;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 }
 .map{
   display: flex;
@@ -426,7 +456,11 @@
       > ul {
         display: flex;
         flex-direction: row;
+<<<<<<< HEAD
         gap: 25px;
+=======
+        gap: 30px;
+>>>>>>> origin/main
         li{
      &:nth-child(even){
        margin: 0!important;
@@ -451,17 +485,23 @@
   }
   .info{
     align-items: center;
+<<<<<<< HEAD
     gap: 25px;
+=======
+>>>>>>> origin/main
     >h2{
       text-align: center;
       width: 330px;
     }
   }
   .social{
+<<<<<<< HEAD
     margin-top: 25px!important;
     p{
       margin-bottom: 25px!important;
     }
+=======
+>>>>>>> origin/main
     >div{
       >ul{
         flex-direction: column;
@@ -489,35 +529,53 @@
     position: unset;
   }
   .social{
+<<<<<<< HEAD
     >h2{
       margin-bottom: 50px !important;
     }
+=======
+>>>>>>> origin/main
     >div{
       .ul{
         flex-direction: column;
         align-items: center;
+<<<<<<< HEAD
         gap: 25px;
+=======
+>>>>>>> origin/main
       }
     }
   }
   .email{
+<<<<<<< HEAD
     margin-top: 25px;
     >h3{
       span{
         display: none;
       }
       width: 385px;
+=======
+    >h3{
+      width: 311px;
+>>>>>>> origin/main
     }
   }
   .formEmail{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: 25px;
     margin: 52px 0 52px!important;
 
   }
   .input{
     width: 332px;
+=======
+    gap: 50px;
+
+  }
+  .input{
+>>>>>>> origin/main
     padding: 26.52px 65.7px 25px 15.16px;
     border-radius:  9.9844px 9.9844px 9.9844px  9.9844px;
   }
