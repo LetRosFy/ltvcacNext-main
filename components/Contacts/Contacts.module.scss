@@ -63,6 +63,7 @@
         li {
           display: flex;
           flex-direction: column;
+
           &:nth-child(even) {
             margin-top: 9.98px;
             margin-bottom: 9.98px;
@@ -72,14 +73,14 @@
             display: flex;
             flex-direction: row;
             gap: 8px;
-<<<<<<< HEAD
+
             transition: all 0.3s ease-out;
-            &:hover{
+
+            &:hover {
               scale: 1.03;
               transition: all 0.4s ease-in;
             }
-=======
->>>>>>> origin/main
+
 
             img {
               padding: 8px;
@@ -199,11 +200,7 @@
       width: 332.46px;
       padding: 15px;
       font-size: 14px;
-<<<<<<< HEAD
       border: 2px solid #FFFFFF;
-=======
-      border: 2px solid $secondary;
->>>>>>> origin/main
       border-radius: 10px;
       background-color: #FFFFFF;
       transition: background-color 0.2s ease-in-out;
@@ -271,14 +268,11 @@
 
   .socialList {
     &:nth-child(even) {
-      img{
+      img {
         padding: 26.06px 33.1px 26.31px 32.6px;
       }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
     }
   }
 
@@ -287,59 +281,52 @@
     flex-direction: column;
     gap: 5px;
     align-items: center;
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
-    >img {
+    > img {
       background: #3725A2;
       border-radius: 14.0267px;
       padding: 27.47px 27.42px 26.93px 27.68px;
 
     }
-    >p{
+
+    > p {
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
       line-height: 52px;
       color: #3725A2;
     }
-
-
-<<<<<<< HEAD
-
   }
 }
 
-=======
-  }
-}
->>>>>>> origin/main
-.email{
+.email {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 115.9px;
->h3{
-  width: 511px;
-  display: flex;
-  align-items: center;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 40px;
-  letter-spacing: 0.005em;
-  color: #3725A2;
-  span{
-    margin-right: 16.97px;
+
+  > h3 {
+    width: 511px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #3725A2;
+
+    span {
+      margin-right: 16.97px;
+    }
   }
-}
-  .formEmail{
+
+  .formEmail {
     margin: 52.87px 0 108.91px;
   }
 }
-.input{
-<<<<<<< HEAD
+
+.input {
   padding: 19px 365.7px 20px 366.16px;
   border: 1.19069px solid #3725A2;
   border-radius: 9.9844px 0 0 9.9844px;
@@ -349,25 +336,18 @@
   line-height: 29px;
   letter-spacing: 0.005em;
   color: #3725A2;
-=======
-  padding: 26.52px 365.7px 25px 366.16px;
-  border: 1.19069px solid #3725A2;
-  border-radius: 9.9844px 0 0 9.9844px;
->>>>>>> origin/main
-  &::placeholder{
+
+  &::placeholder {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 29px;
     letter-spacing: 0.005em;
     color: #3725A2;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/main
   }
 }
-.btn{
+
+.btn {
   padding: 24.96px 68.72px 25.93px 62.9px;
   border: none;
   background: #F72585;
@@ -381,27 +361,27 @@
 
   text-align: center;
   letter-spacing: 0.005em;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/main
 }
-.map{
+
+.map {
   display: flex;
   flex-direction: row;
   gap: 17.02px;
   padding-bottom: 58.01px;
 }
-.first, .second{
+
+.first, .second {
   display: flex;
   flex-direction: column;
   gap: 26.03px;
   align-items: center;
-  p{
+
+  p {
     display: flex;
     align-items: center;
     gap: 17.02px;
-    span{
+
+    span {
       width: 264.27px;
       font-style: normal;
       font-weight: 400;
@@ -411,15 +391,17 @@
     }
   }
 }
+
 @media screen and (max-width: 1024px) {
   .input {
     padding: 26.52px 165.7px 25px 166.16px;
   }
 
-  .map{
+  .map {
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 769px) {
   .contacts {
     flex-direction: column;
@@ -452,218 +434,216 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     > div {
       > ul {
         display: flex;
         flex-direction: row;
-<<<<<<< HEAD
         gap: 25px;
-=======
-        gap: 30px;
->>>>>>> origin/main
-        li{
-     &:nth-child(even){
-       margin: 0!important;
-     }
+
+        li {
+          &:nth-child(even) {
+            margin: 0 !important;
+          }
         }
       }
     }
   }
 }
+
 @media screen and (max-width: 425px) {
-  .contacts{
+  .contacts {
     padding-top: 129px;
     gap: 50px;
   }
-  .ava{
+  .ava {
     width: 350px;
     height: 355px;
-    >div{
+
+    > div {
       right: 0;
       left: 25px;
     }
   }
-  .info{
+  .info {
     align-items: center;
-<<<<<<< HEAD
     gap: 25px;
-=======
->>>>>>> origin/main
-    >h2{
+
+    > h2 {
       text-align: center;
       width: 330px;
     }
   }
-  .social{
-<<<<<<< HEAD
-    margin-top: 25px!important;
-    p{
-      margin-bottom: 25px!important;
+  .social {
+    margin-top: 25px !important;
+
+    p {
+      margin-bottom: 25px !important;
     }
-=======
->>>>>>> origin/main
-    >div{
-      >ul{
+
+    > div {
+      > ul {
         flex-direction: column;
       }
     }
   }
-  .forms{
+  .forms {
     padding: 50px 0 50px;
     flex-direction: column;
     column-gap: 25px;
   }
-  .letTalks{
+  .letTalks {
     position: unset;
     align-items: center;
-    >p{
+
+    > p {
       display: none;
     }
   }
-  .form{
+  .form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .letList{
+  .letList {
     position: unset;
   }
-  .social{
-<<<<<<< HEAD
-    >h2{
+  .social {
+    > h2 {
       margin-bottom: 50px !important;
     }
-=======
->>>>>>> origin/main
-    >div{
-      .ul{
+
+    > div {
+      .ul {
         flex-direction: column;
         align-items: center;
-<<<<<<< HEAD
         gap: 25px;
-=======
->>>>>>> origin/main
       }
     }
   }
-  .email{
-<<<<<<< HEAD
+  .email {
     margin-top: 25px;
-    >h3{
-      span{
+
+    > h3 {
+      span {
         display: none;
       }
+
       width: 385px;
-=======
-    >h3{
-      width: 311px;
->>>>>>> origin/main
+
+      h3 {
+        width: 311px;
+      }
     }
-  }
-  .formEmail{
-    display: flex;
-    flex-direction: column;
-<<<<<<< HEAD
-    gap: 25px;
-    margin: 52px 0 52px!important;
+
+    .formEmail {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      margin: 52px 0 52px !important;
+
+    }
+
+    .input {
+      width: 332px;
+      gap: 50px;
+
+    }
+
+    .input {
+      padding: 26.52px 65.7px 25px 15.16px;
+      border-radius: 9.9844px 9.9844px 9.9844px 9.9844px;
+    }
+
+    .btn {
+      border-radius: 9.9844px 9.9844px 9.9844px 9.9844px;
+    }
+
+    .frame {
+      width: 350px;
+      height: 350px;
+    }
 
   }
-  .input{
-    width: 332px;
-=======
-    gap: 50px;
+  @media screen and (max-width: 375px) {
+    .contacts {
+      padding-top: 129px;
+      gap: 50px;
+    }
+    .ava {
+      width: 350px;
+      height: 355px;
 
-  }
-  .input{
->>>>>>> origin/main
-    padding: 26.52px 65.7px 25px 15.16px;
-    border-radius:  9.9844px 9.9844px 9.9844px  9.9844px;
-  }
-  .btn{
-    border-radius:  9.9844px 9.9844px 9.9844px  9.9844px;
-  }
-  .frame{
-    width: 350px;
-    height: 350px;
-  }
+      > div {
+        right: 0;
+        left: 25px;
+      }
+    }
+    .info {
+      align-items: center;
 
-}
-@media screen and (max-width: 375px) {
-  .contacts{
-    padding-top: 129px;
-    gap: 50px;
-  }
-.ava{
-  width: 350px;
-  height: 355px;
-  >div{
-    right: 0;
-   left: 25px;
-  }
-}
-  .info{
-    align-items: center;
-    >h2{
-      text-align: center;
-      width: 330px;
+      > h2 {
+        text-align: center;
+        width: 330px;
+      }
+    }
+    .social {
+      > div {
+        > ul {
+          flex-direction: column;
+        }
+      }
+    }
+    .forms {
+      padding: 50px 0 50px;
+      flex-direction: column;
+      column-gap: 25px;
+    }
+    .letTalks {
+      position: unset;
+      align-items: center;
+
+      > p {
+        display: none;
+      }
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .letList {
+      position: unset;
+    }
+    .social {
+      > div {
+        .ul {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+    .email {
+      > h3 {
+        width: 311px;
+      }
+    }
+    .formEmail {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+    }
+    .input {
+      padding: 26.52px 65.7px 25px 15.16px;
+      border-radius: 9.9844px 9.9844px 9.9844px 9.9844px;
+    }
+    .btn {
+      border-radius: 9.9844px 9.9844px 9.9844px 9.9844px;
+    }
+    .frame {
+      width: 350px;
+      height: 350px;
     }
   }
-  .social{
-   >div{
-     >ul{
-       flex-direction: column;
-     }
-   }
-  }
-  .forms{
-    padding: 50px 0 50px;
-    flex-direction: column;
-    column-gap: 25px;
-  }
-  .letTalks{
-    position: unset;
-    align-items: center;
-    >p{
-      display: none;
-    }
-  }
-  .form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .letList{
-    position: unset;
-  }
-  .social{
-    >div{
-.ul{
-  flex-direction: column;
-  align-items: center;
-}
-    }
-  }
-  .email{
-    >h3{
-      width: 311px;
-    }
-  }
-  .formEmail{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-
-  }
-  .input{
-    padding: 26.52px 65.7px 25px 15.16px;
-    border-radius:  9.9844px 9.9844px 9.9844px  9.9844px;
-  }
-  .btn{
-    border-radius:  9.9844px 9.9844px 9.9844px  9.9844px;
-  }
-  .frame{
-    width: 350px;
-    height: 350px;
-  }
-
 }
